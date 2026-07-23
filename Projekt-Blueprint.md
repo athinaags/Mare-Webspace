@@ -8,7 +8,7 @@
 
 >Projektphase: Konzeption und Planung 
 
->Ausbaustufe 1: Info-Seite und Produktkatalog 
+>Ausbaustufe: Info-Seite und Produktkatalog 
 
 >Spätere Ausbaustufen: Reservierungen, Newletter, Social Media(,Kundenanfragen - Email, ggf, E-Commerce)
 
@@ -82,21 +82,9 @@ Mögliche Erweiterungen:
 * Verlinkung mit Instagram, Facebook und weiteren Kanälen,
 * individuelle Preislisten für Geschäftskunden (Kartonpreise),
 * digitale Angebotsanfragen?
+* individuelle B2C-Konditionen,
+* Lagerbestandsanzeige (email - telefon),
 
-#### 3.3 Langfristige Version
-
-Denkbare Funktionen:
-
-* Kundenkonten,
-* individuelle B2B-Konditionen (nicht nur B2C),
-* Warenkorb und Checkout,
-* Click & Collect,
-* Liefergebiete und Liefertage,
-* Wiederholungsbestellungen,
-* Rechnungs- und Bestellhistorie,
-* Lagerbestandsanzeige,
-* Anbindung an Warenwirtschaft oder Kassensystem,
-* personalisierte Produktempfehlungen.
 
 #### 3.4 Positionierung 
 
@@ -112,6 +100,7 @@ Die Positionierung sollte auf folgenden Eigenschaften beruhen:
 * internationale Produktauswahl
 * lokale Erreichbarkeit in Köln
 * Verlässlichkeit für Geschäftskunden
+* Lieferungen Köln & Umgebung
 
 ### 4. Geschäftsmodell 
 #### 4.1 Primäres Geschäftsmodell 
