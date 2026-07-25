@@ -34,9 +34,8 @@ export default function Home() {
         </span>
       </div>
       <header className="site-header">
-        <a className="wordmark" href="#start" aria-label="Mare Atlantico Startseite">
-          <span className="wordmark-main">MARE</span>
-          <span className="wordmark-sub">ATLANTICO · KÖLN</span>
+        <a className="header-logo" href="#start" aria-label="Mare Atlantico Startseite">
+          <img src="/mare-atlantico-logo.png" alt="Mare Atlantico – Feinkost aus aller Welt für Gastronomie und Privatkunden" />
         </a>
         <nav aria-label="Hauptnavigation">
           <a href="#sortiment">Sortiment</a>
