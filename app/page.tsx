@@ -141,8 +141,9 @@ export default function Home() {
         </div>
         <div className="hours-panel">
           <small>Öffnungszeiten</small>
-          <div><span>Montag – Freitag</span><strong>[Uhrzeit ergänzen]</strong></div>
-          <div><span>Samstag</span><strong>[Uhrzeit ergänzen]</strong></div>
+          <div><span>Montag - Mittwoch </span><strong> 06:00 Uhr bis 18:00 Uhr </strong></div>
+          <div><span>Donnerstag - Freitag </span><strong> 06:00 Uhr bis 19:00 Uhr </strong></div>
+          <div><span>Samstag</span><strong> 06:00 Uhr bis 16:00 Uhr </strong></div>
           <div><span>Sonntag</span><strong>Geschlossen</strong></div>
           <p>Sonderöffnungszeiten können abweichen.</p>
         </div>
