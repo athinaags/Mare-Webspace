@@ -39,6 +39,7 @@ export default function Home() {
         </a>
         <nav aria-label="Hauptnavigation">
           <a href="#sortiment">Sortiment</a>
+          <a href="#kontakt">Samstag Exklusiv</a>
           <a href="#gastro">Für Gastronomen</a>
           <a href="#ueber-uns">Über uns</a>
         </nav>
