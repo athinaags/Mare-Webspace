@@ -20,7 +20,19 @@ function Arrow() {
 export default function Home() {
   return (
     <main>
-      <div className="announcement">Frische Auswahl für Köln &amp; Umgebung <span>•</span> Persönliche Beratung</div>
+      <div className="announcement">
+        <span className="announcement-copy">Frische Auswahl für Köln &amp; Umgebung</span>
+        <span className="certifications" aria-label="Zertifizierungen">
+          <img
+            src="/fairtrade-mark.svg"
+            alt="Fairtrade"
+          />
+          <img
+            src="/asc-certified.png"
+            alt="ASC zertifiziert"
+          />
+        </span>
+      </div>
       <header className="site-header">
         <a className="wordmark" href="#start" aria-label="Mare Atlantico Startseite">
           <span className="wordmark-main">MARE</span>
