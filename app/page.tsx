@@ -135,8 +135,8 @@ export default function Home() {
           <p className="visit-intro">Die finalen Kontaktdaten und Öffnungszeiten werden vor Veröffentlichung ergänzt.</p>
         </div>
         <div className="contact-panel">
-          <div><small>Adresse</small><strong>Mare Atlantico Delikatessen GmbH<br />[Straße und Hausnummer]<br />[PLZ] Köln</strong></div>
-          <div><small>Kontakt</small><strong>[Telefonnummer]<br />[E-Mail-Adresse]</strong></div>
+          <div><small>Adresse</small><strong>Mare Atlantico Delikatessen GmbH<br /> Marktstraße 10 - 12 <br /> 50968 Köln</strong></div>
+          <div><small>Kontakt</small><strong>Tel.: 0221 / 888 276-0<br /> E-Mail: info@mare-atlantico.de </strong></div>
           <a href="https://maps.google.com/?q=K%C3%B6ln" target="_blank" rel="noreferrer">Route öffnen <Arrow /></a>
         </div>
         <div className="hours-panel">
