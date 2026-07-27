@@ -32,7 +32,7 @@ nav a:hover:after { right: 0; }
 .header-cta { justify-self: end; background: var(--yellow); padding: 16px 20px; font-weight: 700; display: flex; gap: 24px; transition: transform .2s; }
 .header-cta:hover, .button:hover { transform: translateY(-2px); }
 
-.hero { min-height: 720px; display: grid; grid-template-columns: 47% 53%; background: var(--blue); color: white; overflow: hidden; }
+.hero { min-height: 720px; display: grid; grid-template-columns: 39% 61%; background: var(--blue); color: white; overflow: hidden; }
 .hero-copy { padding: 96px clamp(30px, 6vw, 90px) 52px; display: flex; flex-direction: column; }
 .eyebrow { text-transform: uppercase; letter-spacing: .17em; font-size: 11px; font-weight: 800; margin: 0 0 24px; display: flex; align-items: center; gap: 12px; }
 .eyebrow:before { content: ""; width: 34px; height: 1px; background: currentColor; }
