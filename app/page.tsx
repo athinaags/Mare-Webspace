@@ -62,14 +62,14 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-image" role="img" aria-label="Frischer Fisch auf Eis">
-          <div className="image-note"><span>Heute im Fokus</span><strong>Frische &amp; Auswahl</strong></div>
+          <div className="image-note"><span>Im Fokus</span><strong>Frische &amp; Auswahl</strong></div>
         </div>
       </section>
 
       <section className="promise-strip" aria-label="Unser Qualitätsversprechen">
-        <div><small>01 · Sortiment</small><p>International ausgewählt, lokal für Sie da.</p></div>
-        <div><small>02 · Beratung</small><p>Persönlich, erfahren und unkompliziert.</p></div>
-        <div><small>03 · Gastronomie</small><p>Verlässlich auch für größere Mengen.</p></div>
+        <div><small>Sortiment</small><p>International ausgewählt, lokal für Sie da.</p></div>
+        <div><small>Beratung</small><p>Persönlich, erfahren und unkompliziert.</p></div>
+        <div><small>Gastronomie</small><p>Verlässlich auch für größere Mengen.</p></div>
       </section>
 
       <section className="section assortment" id="sortiment">
