@@ -243,6 +243,25 @@ export default function Home() {
           </article>
         </div>
 
+        <article className="creator-feature">
+          <div className="creator-copy">
+            <p className="eyebrow yellow">Creator-Empfehlung</p>
+            <h3>Max Pane<br />bei Mare Atlantico.</h3>
+            <p>Der Kölner Food-Creator Max Pane hat uns bereits mehrfach besucht und seine Eindrücke mit seiner Community geteilt. Seine Videos haben viele neue Genießer auf Mare Atlantico aufmerksam gemacht.</p>
+          </div>
+          <div className="creator-videos" aria-label="Videos von Max Pane über Mare Atlantico">
+            {[1, 2, 3].map((video) => (
+              <div className="creator-video-placeholder" key={video}>
+                <span className="creator-play" aria-hidden="true">▶</span>
+                <div>
+                  <small>Max Pane · Video {video}</small>
+                  <strong>Video wird verlinkt</strong>
+                </div>
+              </div>
+            ))}
+          </div>
+        </article>
+
         <div className="press-grid">
           <a className="press-card press-ksta" href="https://www.ksta.de/koeln/am-koelner-grossmarkt-fischladen-ist-in-location-175608" target="_blank" rel="noreferrer">
             <span className="press-source">Kölner Stadt-Anzeiger</span>
@@ -283,11 +302,70 @@ export default function Home() {
         </div>
       </section>
 
-      <footer>
-        <a className="wordmark footer-mark" href="#start"><span className="wordmark-main">MARE</span><span className="wordmark-sub">ATLANTICO · KÖLN</span></a>
-        <p>Delikatessen für Gastronomie &amp; Privatkunden.</p>
-        <div><a href="#">Impressum</a><a href="#">Datenschutz</a><a href="#kontakt">Kontakt</a></div>
-        <small>© 2026 Mare Atlantico Delikatessen GmbH</small>
+      <footer className="postcard-footer">
+        <div className="postcard">
+          <div className="postcard-left">
+            <a className="postcard-logo" href="#start" aria-label="Zurück zum Seitenanfang">
+              <img src="/mare-atlantico-logo.png" alt="Mare Atlantico" />
+            </a>
+
+            <div className="postcard-columns">
+              <div>
+                <p className="postcard-label">Besuchen Sie uns</p>
+                <address>Marktstraße 10–12<br />50968 Köln</address>
+                <a href="https://maps.google.com/?q=Marktstra%C3%9Fe+10-12+50968+K%C3%B6ln" target="_blank" rel="noreferrer">Route öffnen ↗</a>
+              </div>
+              <div>
+                <p className="postcard-label">Öffnungszeiten</p>
+                <p>Mo–Mi&nbsp; 06:00–18:00<br />Do–Fr&nbsp; 06:00–19:00<br />Sa&nbsp; 06:00–16:00<br />So&nbsp; geschlossen</p>
+              </div>
+              <div>
+                <p className="postcard-label">Kontakt</p>
+                <a href="tel:+492218882760">0221 / 888 276-0</a>
+                <a href="mailto:info@mare-atlantico.de">info@mare-atlantico.de</a>
+              </div>
+            </div>
+
+            <div className="postcard-socials">
+              <p className="postcard-label">Folgen Sie uns</p>
+              <div>
+                <a href="https://www.instagram.com/mareatlantico/" target="_blank" rel="noreferrer">Instagram</a>
+                <span aria-label="TikTok-Link wird ergänzt">TikTok</span>
+                <span aria-label="YouTube-Link wird ergänzt">YouTube</span>
+                <span aria-label="Facebook-Link wird ergänzt">Facebook</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="postcard-right">
+            <div className="postcard-stamp" aria-hidden="true">
+              <img src="/mare-atlantico-logo.png" alt="" />
+            </div>
+            <div className="postmark" aria-hidden="true">KÖLN<br /><small>MARE ATLANTICO</small></div>
+
+            <div className="postcard-address">
+              <span>An</span>
+              <strong>Genießerinnen &amp; Genießer</strong>
+              <span>in Köln und Umgebung</span>
+            </div>
+
+            <form className="newsletter">
+              <p className="postcard-label">Dürfen wir Ihnen schreiben?</p>
+              <h2>Post von Mare Atlantico.</h2>
+              <p>Neuigkeiten, besondere Produkte und Einladungen direkt in Ihr Postfach.</p>
+              <label>
+                <span>E-Mail-Adresse</span>
+                <input type="email" name="email" placeholder="ihre@email.de" autoComplete="email" required />
+              </label>
+              <button type="submit">Newsletter abonnieren <Arrow /></button>
+            </form>
+          </div>
+        </div>
+
+        <div className="footer-legal">
+          <small>© 2026 Mare Atlantico Delikatessen GmbH</small>
+          <div><a href="#">Impressum</a><a href="#">Datenschutz</a></div>
+        </div>
       </footer>
     </main>
   );
