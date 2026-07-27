@@ -221,6 +221,47 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="voices" aria-labelledby="voices-title">
+        <div className="voices-heading">
+          <div>
+            <p className="eyebrow yellow">Stimmen &amp; Presse</p>
+            <h2 id="voices-title">Was andere<br />über uns sagen.</h2>
+          </div>
+          <p>Persönliche Eindrücke unserer Kundschaft und redaktionelle Beiträge über Mare Atlantico in Köln.</p>
+        </div>
+
+        <div className="review-grid">
+          <article className="review-card">
+            <div className="review-stars" aria-label="5 von 5 Sternen">★★★★★</div>
+            <blockquote>„Wie ein kleiner Urlaub, dort einzukaufen. Tolle Auswahl an Fisch und Fleisch.“</blockquote>
+            <div><strong>Lu</strong><span>Kundenbewertung bei STILPUNKTE</span></div>
+          </article>
+          <article className="review-card">
+            <div className="review-stars" aria-label="5 von 5 Sternen">★★★★★</div>
+            <blockquote>„Immer wieder frisches Fleisch und Fisch. Alle sind sehr nett und zuvorkommend.“</blockquote>
+            <div><strong>Manfred Geritz</strong><span>Kundenbewertung bei STILPUNKTE</span></div>
+          </article>
+        </div>
+
+        <div className="press-grid">
+          <a className="press-card press-ksta" href="https://www.ksta.de/koeln/am-koelner-grossmarkt-fischladen-ist-in-location-175608" target="_blank" rel="noreferrer">
+            <span className="press-source">Kölner Stadt-Anzeiger</span>
+            <div><small>Porträt · 2022</small><h3>Wie aus einem Fischladen eine In-Location wurde</h3><p>Ein ausführlicher Blick auf Auswahl, Atmosphäre, Familie und die Entwicklung von Mare Atlantico.</p></div>
+            <span className="press-arrow"><Arrow /></span>
+          </a>
+          <a className="press-card press-ksta-light" href="https://www.ksta.de/freizeit/geniessen/mediterrane-supermaerkte-in-koeln-einkaufen-und-essen-wie-im-urlaub-317273" target="_blank" rel="noreferrer">
+            <span className="press-source">Kölner Stadt-Anzeiger</span>
+            <div><small>Genuss in Köln</small><h3>Mare Atlantico mit Ciabatta-Theke in Köln-Bayenthal</h3><p>Über mediterrane Spezialitäten, Kaffee, Getränke und den Genuss direkt vor Ort.</p></div>
+            <span className="press-arrow"><Arrow /></span>
+          </a>
+          <a className="press-card press-stilpunkte" href="https://www.stilpunkte.de/koeln/eintraege/mare-atlantico-delikatessen-gmbh/" target="_blank" rel="noreferrer">
+            <span className="press-source">STILPUNKTE®</span>
+            <div><small>Geprüft &amp; ausgezeichnet</small><h3>Eine der besonderen Feinkostadressen in Köln</h3><p>Das Unternehmensporträt mit Sortiment, Auszeichnung und Kundenbewertungen.</p></div>
+            <span className="press-arrow"><Arrow /></span>
+          </a>
+        </div>
+      </section>
+
       <section className="visit" id="kontakt">
         <div>
           <p className="eyebrow yellow">Besuchen Sie uns</p>

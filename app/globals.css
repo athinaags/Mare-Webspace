@@ -152,6 +152,27 @@ h1 em, h2 em { font-weight: 400; }
 .founder-photo { position: relative; overflow: hidden; border-radius: 20px; background: linear-gradient(145deg, #d8d1c6, #9e9588); display: grid; place-items: center; color: rgba(16,32,71,.64); text-align: center; font-size: 11px; font-weight: 800; line-height: 1.5; letter-spacing: .13em; text-transform: uppercase; }
 .founder-photo:after { content: ""; position: absolute; inset: 14px; border: 1px solid rgba(255,255,255,.48); border-radius: 14px; }
 .founder-photo-large { grid-row: 1 / 3; }
+.voices { padding: 120px clamp(24px, 6vw, 90px); background: var(--blue-dark); color: white; }
+.voices-heading { display: grid; grid-template-columns: 1.15fr .65fr; gap: 10vw; align-items: end; margin-bottom: 60px; }
+.voices-heading h2 { margin: 0; font-family: Georgia, serif; font-size: clamp(50px, 6vw, 86px); font-weight: 400; line-height: .98; letter-spacing: -.045em; }
+.voices-heading > p { margin: 0 0 8px; color: rgba(255,255,255,.68); line-height: 1.7; }
+.review-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-bottom: 22px; }
+.review-card { min-height: 310px; padding: 38px; border-radius: 22px; background: var(--white); color: var(--ink); display: flex; flex-direction: column; }
+.review-stars { color: var(--yellow); letter-spacing: .14em; }
+.review-card blockquote { margin: auto 0; font-family: Georgia, serif; font-size: clamp(24px, 2.3vw, 35px); line-height: 1.3; }
+.review-card > div:last-child { display: flex; flex-direction: column; gap: 5px; }
+.review-card > div:last-child span { color: #687287; font-size: 11px; }
+.press-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.press-card { position: relative; min-height: 390px; padding: 30px; overflow: hidden; border-radius: 22px; display: flex; flex-direction: column; justify-content: space-between; transition: transform .2s ease; }
+.press-card:hover { transform: translateY(-3px); }
+.press-ksta { background: var(--yellow); color: var(--ink); }
+.press-ksta-light { background: var(--blue-light); color: var(--ink); }
+.press-stilpunkte { background: #ebe2d1; color: var(--ink); }
+.press-source { width: max-content; padding-bottom: 7px; border-bottom: 2px solid currentColor; font-size: 12px; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; }
+.press-card small { font-size: 9px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; opacity: .66; }
+.press-card h3 { margin: 14px 0; font-family: Georgia, serif; font-size: 30px; font-weight: 400; line-height: 1.13; }
+.press-card p { margin: 0; line-height: 1.55; opacity: .75; }
+.press-arrow { position: absolute; right: 26px; top: 25px; font-size: 22px; }
 .visit { display: grid; grid-template-columns: 1.1fr .85fr .85fr; gap: 25px; padding: 110px clamp(24px, 6vw, 90px); background: var(--blue); color: white; }
 .visit h2 { font-size: clamp(46px, 5vw, 76px); }
 .visit-intro { max-width: 500px; line-height: 1.6; opacity: .68; margin-top: 28px; }
@@ -191,6 +212,9 @@ footer > small { grid-column: 1 / -1; padding-top: 36px; border-top: 1px solid r
   .about-feature, .history { grid-template-columns: 1fr; }
   .chef-quote, .chef-video { min-height: 460px; }
   .history { gap: 50px; }
+  .voices-heading { grid-template-columns: 1fr; gap: 30px; }
+  .press-grid { grid-template-columns: 1fr; }
+  .press-card { min-height: 330px; }
   .visit { grid-template-columns: 1fr 1fr; }
   .visit > div:first-child { grid-column: 1 / -1; margin-bottom: 20px; }
   footer { grid-template-columns: 1fr 1fr; }
@@ -230,6 +254,9 @@ footer > small { grid-column: 1 / -1; padding-top: 36px; border-top: 1px solid r
   .chef-video { min-height: 360px; }
   .founder-gallery { grid-template-columns: 1fr; grid-template-rows: repeat(3, 280px); }
   .founder-photo-large { grid-row: auto; }
+  .voices { padding: 85px 22px; }
+  .review-grid { grid-template-columns: 1fr; }
+  .review-card { min-height: 290px; padding: 28px; }
   .visit { grid-template-columns: 1fr; padding: 85px 22px; }
   .visit > div:first-child { grid-column: auto; }
   footer { grid-template-columns: 1fr; }
