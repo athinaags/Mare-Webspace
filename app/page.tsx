@@ -50,7 +50,7 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">Delikatessen für Köln</p>
           <h1>Gutes kommt von <em>überall.</em></h1>
-          <p className="hero-text">Ausgewählte Lebensmittel, frischer Fisch, Fleisch, Asia-Spezialitäten, Wein und Spirituosen – für Gastronomie und Privatkunden.</p>
+          <p className="hero-text">Ausgewählte Lebensmittel, frischer Fisch, Fleisch, Asia-Spezialitäten, Wein und Spirituosen, für Gastronomie und Privatkunden.</p>
           <div className="button-row">
             <a className="button button-yellow" href="#sortiment">Sortiment entdecken <Arrow /></a>
             <a className="text-link" href="#kontakt">Besuch planen <span>↓</span></a>
