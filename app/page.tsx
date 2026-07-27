@@ -1,10 +1,11 @@
 const categories = [
-  { name: "Fisch", note: "Frisch · TK · Meeresfrüchte", image: "https://images.unsplash.com/photo-1574137117079-54a7b19b39b7?auto=format&fit=crop&w=1200&q=85" },
-  { name: "Fleisch", note: "Rind · Geflügel · Lamm", image: "https://images.unsplash.com/photo-1584048603508-4b31894439a9?auto=format&fit=crop&w=1200&q=85" },
-  { name: "Asia", note: "Saucen · Reis · Gewürze", image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=85" },
-  { name: "Wein", note: "Rot · Weiß · Rosé", image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=1200&q=85" },
-  { name: "Spirituosen", note: "Klassiker · Spezialitäten", image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?auto=format&fit=crop&w=1200&q=85" },
-  { name: "Verschiedenes", note: "Feinkost · Konserven · Mehr", image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=85" },
+  { name: "Fisch", image: "https://images.unsplash.com/photo-1574137117079-54a7b19b39b7?auto=format&fit=crop&w=1200&q=85" },
+  { name: "Fleisch", image: "https://images.unsplash.com/photo-1584048603508-4b31894439a9?auto=format&fit=crop&w=1200&q=85" },
+  { name: "Asia", image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=85" },
+  { name: "Exklusive Spezialitäten", image: "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=1400&q=90" },
+  { name: "Wein", image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=1200&q=85" },
+  { name: "Spirituosen", image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?auto=format&fit=crop&w=1200&q=85" },
+  { name: "Verschiedenes", image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=85" },
 ];
 
 const bestsellers = [
@@ -83,8 +84,7 @@ export default function Home() {
             <a className={`category-card card-${index + 1}`} href="#kontakt" key={category.name}>
               <img src={category.image} alt="" />
               <span className="card-shade" />
-              <span className="card-index">0{index + 1}</span>
-              <span className="card-copy"><strong>{category.name}</strong><small>{category.note}</small></span>
+              <span className="card-copy"><strong>{category.name}</strong></span>
               <span className="card-arrow"><Arrow /></span>
             </a>
           ))}
