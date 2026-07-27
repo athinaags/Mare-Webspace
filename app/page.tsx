@@ -305,15 +305,15 @@ export default function Home() {
       <footer className="postcard-footer">
         <div className="postcard">
           <div className="postcard-left">
-            <a className="postcard-logo" href="#start" aria-label="Zurück zum Seitenanfang">
-              <img src="/mare-atlantico-logo.png" alt="Mare Atlantico" />
+            <a className="postcard-message" href="#start" aria-label="Zurück zum Seitenanfang">
+              Ihr Stück Atlantik<br />mitten in Köln.
             </a>
 
             <div className="postcard-columns">
               <div>
                 <p className="postcard-label">Besuchen Sie uns</p>
                 <address>Marktstraße 10–12<br />50968 Köln</address>
-                <a href="https://maps.google.com/?q=Marktstra%C3%9Fe+10-12+50968+K%C3%B6ln" target="_blank" rel="noreferrer">Route öffnen ↗</a>
+                <a className="postcard-route" href="https://maps.google.com/?q=Marktstra%C3%9Fe+10-12+50968+K%C3%B6ln" target="_blank" rel="noreferrer">Route öffnen <span>↗</span></a>
               </div>
               <div>
                 <p className="postcard-label">Öffnungszeiten</p>
