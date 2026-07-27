@@ -309,21 +309,24 @@ export default function Home() {
               Ihr Stück Atlantik<br />mitten in Köln.
             </a>
 
-            <div className="postcard-columns">
-              <div>
-                <p className="postcard-label">Besuchen Sie uns</p>
-                <address>Marktstraße 10–12<br />50968 Köln</address>
-                <a className="postcard-route" href="https://maps.google.com/?q=Marktstra%C3%9Fe+10-12+50968+K%C3%B6ln" target="_blank" rel="noreferrer">Route öffnen <span>↗</span></a>
+            <div className="postcard-lines">
+              <div className="postcard-line">
+                <span>Name</span>
+                <strong>Mare Atlantico Delikatessen GmbH</strong>
               </div>
-              <div>
-                <p className="postcard-label">Öffnungszeiten</p>
-                <p>Mo–Mi&nbsp; 06:00–18:00<br />Do–Fr&nbsp; 06:00–19:00<br />Sa&nbsp; 06:00–16:00<br />So&nbsp; geschlossen</p>
+              <div className="postcard-line">
+                <span>Adresse</span>
+                <address>Marktstraße 10–12 · 50968 Köln</address>
               </div>
-              <div>
-                <p className="postcard-label">Kontakt</p>
-                <a href="tel:+492218882760">0221 / 888 276-0</a>
-                <a href="mailto:info@mare-atlantico.de">info@mare-atlantico.de</a>
+              <div className="postcard-line">
+                <span>Öffnungszeiten</span>
+                <p>Mo–Mi 06:00–18:00 · Do–Fr 06:00–19:00 · Sa 06:00–16:00 · So geschlossen</p>
               </div>
+              <div className="postcard-line">
+                <span>Kontakt</span>
+                <p><a href="tel:+492218882760">0221 / 888 276-0</a> · <a href="mailto:info@mare-atlantico.de">info@mare-atlantico.de</a></p>
+              </div>
+              <a className="postcard-route" href="https://maps.google.com/?q=Marktstra%C3%9Fe+10-12+50968+K%C3%B6ln" target="_blank" rel="noreferrer">Route öffnen <span>↗</span></a>
             </div>
 
             <div className="postcard-socials">
