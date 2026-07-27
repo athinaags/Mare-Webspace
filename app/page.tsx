@@ -47,6 +47,7 @@ export default function Home() {
           <a href="#samstag-exklusiv">Täglich &amp; Samstag</a>
           <a href="#gastro">Für Gastronomen</a>
           <a href="#ueber-uns">Über uns</a>
+          <a href="#stimmen">Stimmen &amp; Presse</a>
         </nav>
         <a className="header-cta" href="#kontakt">Kontakt <Arrow /></a>
       </header>
@@ -221,7 +222,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="voices" aria-labelledby="voices-title">
+      <section className="voices" id="stimmen" aria-labelledby="voices-title">
         <div className="voices-heading">
           <div>
             <p className="eyebrow yellow">Stimmen &amp; Presse</p>
