@@ -76,7 +76,7 @@ export default function Home() {
       <section className="section assortment" id="sortiment">
         <div className="section-heading">
           <div><p className="eyebrow blue">Kleiner Einblick in unser Sortiment</p><h2>Von der Küste<br />bis in die Küche.</h2></div>
-          <p>Entdecken Sie unser vielseitiges Angebot. Die konkrete Verfügbarkeit kann saisonal variieren – sprechen Sie uns für aktuelle Ware gerne direkt an.</p>
+          <p>Erhalten Sie einen kleinen Einblick in unser vielseitiges Sortiment. Insgesamt bieten wir über 1.000 verschiedene Produkte an. Bei Fragen zu bestimmten Produkten oder zur aktuellen Verfügbarkeit sprechen Sie uns gerne direkt an.</p>
         </div>
         <div className="category-grid">
           {categories.map((category, index) => (
