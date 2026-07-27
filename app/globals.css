@@ -182,16 +182,6 @@ h1 em, h2 em { font-weight: 400; }
 .press-card h3 { margin: 14px 0; font-family: Georgia, serif; font-size: 30px; font-weight: 400; line-height: 1.13; }
 .press-card p { margin: 0; line-height: 1.55; opacity: .75; }
 .press-arrow { position: absolute; right: 26px; top: 25px; font-size: 22px; }
-.visit { display: grid; grid-template-columns: 1.1fr .85fr .85fr; gap: 25px; padding: 110px clamp(24px, 6vw, 90px); background: var(--blue); color: white; }
-.visit h2 { font-size: clamp(46px, 5vw, 76px); }
-.visit-intro { max-width: 500px; line-height: 1.6; opacity: .68; margin-top: 28px; }
-.contact-panel, .hours-panel { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18); border-radius: 20px; padding: 30px; }
-.contact-panel div { padding-bottom: 28px; margin-bottom: 28px; border-bottom: 1px solid rgba(255,255,255,.18); }
-.contact-panel small, .hours-panel > small { display: block; color: var(--yellow); text-transform: uppercase; letter-spacing: .13em; font-size: 9px; margin-bottom: 12px; }
-.contact-panel strong { line-height: 1.65; font-weight: 400; }
-.contact-panel a { display: flex; justify-content: space-between; background: var(--yellow); color: var(--ink); padding: 15px; font-weight: 700; }
-.hours-panel > div { display: flex; justify-content: space-between; gap: 15px; padding: 17px 0; border-bottom: 1px solid rgba(255,255,255,.18); font-size: 13px; }
-.hours-panel p { font-size: 11px; opacity: .55; margin-top: 24px; }
 .postcard-footer { padding: clamp(16px, 2vw, 30px); background: #102047; color: var(--ink); }
 .postcard { position: relative; display: grid; grid-template-columns: 1.2fr .8fr; min-height: 670px; overflow: hidden; background: #f2efe7; border: 1px solid #d7d0c2; box-shadow: 0 18px 50px rgba(0,0,0,.2); }
 .postcard:before { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .38; background-image: repeating-linear-gradient(0deg, rgba(27,42,73,.025) 0, rgba(27,42,73,.025) 1px, transparent 1px, transparent 4px), radial-gradient(circle at 30% 20%, rgba(255,255,255,.8), transparent 35%); }
@@ -258,8 +248,6 @@ h1 em, h2 em { font-weight: 400; }
   .creator-feature { grid-template-columns: 1fr; }
   .press-grid { grid-template-columns: 1fr; }
   .press-card { min-height: 330px; }
-  .visit { grid-template-columns: 1fr 1fr; }
-  .visit > div:first-child { grid-column: 1 / -1; margin-bottom: 20px; }
   .postcard { grid-template-columns: 1fr; }
   .postcard-left { border-right: 0; border-bottom: 2px dashed rgba(16,32,71,.3); }
   .postcard-lines { margin: 80px 0; }
@@ -306,8 +294,6 @@ h1 em, h2 em { font-weight: 400; }
   .creator-feature { padding: 30px 22px; }
   .creator-videos { grid-template-columns: 1fr; }
   .creator-video-placeholder { min-height: 210px; }
-  .visit { grid-template-columns: 1fr; padding: 85px 22px; }
-  .visit > div:first-child { grid-column: auto; }
   .postcard-footer { padding: 10px; }
   .postcard-left, .postcard-right { padding: 32px 24px; }
   .postcard-lines { margin: 60px 0; }

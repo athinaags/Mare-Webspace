@@ -281,28 +281,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="visit" id="kontakt">
-        <div>
-          <p className="eyebrow yellow">Besuchen Sie uns</p>
-          <h2>Ihr Stück Atlantik<br />mitten in Köln.</h2>
-          <p className="visit-intro">Die finalen Kontaktdaten und Öffnungszeiten werden vor Veröffentlichung ergänzt.</p>
-        </div>
-        <div className="contact-panel">
-          <div><small>Adresse</small><strong>Mare Atlantico Delikatessen GmbH<br /> Marktstraße 10 - 12 <br /> 50968 Köln</strong></div>
-          <div><small>Kontakt</small><strong>Tel.: 0221 / 888 276-0<br /> E-Mail: info@mare-atlantico.de </strong></div>
-          <a href="https://maps.google.com/?q=K%C3%B6ln" target="_blank" rel="noreferrer">Route öffnen <Arrow /></a>
-        </div>
-        <div className="hours-panel">
-          <small>Öffnungszeiten</small>
-          <div><span>Montag - Mittwoch </span><strong> 06:00 Uhr bis 18:00 Uhr </strong></div>
-          <div><span>Donnerstag - Freitag </span><strong> 06:00 Uhr bis 19:00 Uhr </strong></div>
-          <div><span>Samstag</span><strong> 06:00 Uhr bis 16:00 Uhr </strong></div>
-          <div><span>Sonntag</span><strong>Geschlossen</strong></div>
-          <p>Sonderöffnungszeiten können abweichen.</p>
-        </div>
-      </section>
-
-      <footer className="postcard-footer">
+      <footer className="postcard-footer" id="kontakt">
         <div className="postcard">
           <div className="postcard-left">
             <a className="postcard-message" href="#start" aria-label="Zurück zum Seitenanfang">
