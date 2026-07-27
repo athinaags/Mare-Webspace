@@ -44,7 +44,7 @@ export default function Home() {
         </a>
         <nav aria-label="Hauptnavigation">
           <a href="#sortiment">Sortiment</a>
-          <a href="#kontakt">Samstag Exklusiv</a>
+          <a href="#samstag-exklusiv">Samstag Exklusiv</a>
           <a href="#gastro">Für Gastronomen</a>
           <a href="#ueber-uns">Über uns</a>
         </nav>
@@ -107,6 +107,68 @@ export default function Home() {
               <div className="product-info"><div><h3>{product.name}</h3><p>{product.meta}</p></div><a href="#kontakt" aria-label={`${product.name} anfragen`}><Arrow /></a></div>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="saturday" id="samstag-exklusiv">
+        <div className="saturday-heading">
+          <div>
+            <p className="eyebrow blue">Nur am Samstag</p>
+            <h2>Samstag Exklusiv.</h2>
+          </div>
+          <div>
+            <p className="saturday-lead">Nehmen Sie Platz, entdecken Sie besondere Spezialitäten und genießen Sie Ihren Einkauf ganz in Ruhe.</p>
+            <p>Samstags wird Mare Atlantico zum kulinarischen Treffpunkt. Reservieren Sie einen Tisch, äußern Sie Ihre Wünsche vorab und verbringen Sie eine genussvolle Zeit bei uns.</p>
+          </div>
+        </div>
+
+        <div className="saturday-gallery" aria-label="Samstags bei Mare Atlantico">
+          <figure className="saturday-photo saturday-photo-main">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=88" alt="Einladende Atmosphäre mit gedeckten Tischen" />
+            <figcaption>Zusammenkommen &amp; genießen</figcaption>
+          </figure>
+          <figure className="saturday-photo">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=88" alt="Frisch zubereitete Ciabattas" />
+            <figcaption>Frisch aus unserer Theke</figcaption>
+          </figure>
+          <figure className="saturday-photo">
+            <img src="https://images.unsplash.com/photo-1715249792892-ec2689ab016e?auto=format&fit=crop&w=1000&q=88" alt="Austern und Champagner auf einem gedeckten Tisch" />
+            <figcaption>Austern &amp; feine Begleiter</figcaption>
+          </figure>
+        </div>
+
+        <div className="saturday-details">
+          <div className="saturday-menu">
+            <p className="detail-label">Unsere Auswahl</p>
+            <h3>Herzhaft, frisch und besonders.</h3>
+            <ul className="menu-list">
+              <li>Ciabattas in verschiedenen Variationen</li>
+              <li>Käse und Schinkenplatten</li>
+              <li>Frische Austern</li>
+              <li>Thunfisch und Lachstatar</li>
+              <li>Pulposalat</li>
+              <li>Halber Hummer</li>
+            </ul>
+          </div>
+          <div className="saturday-drinks">
+            <p className="detail-label">Dazu im Glas</p>
+            <h3>Von Kaffee bis Champagner.</h3>
+            <p>Kaffee, Softdrinks, Champagner, Prosecco sowie ausgewählte Weißweine, Rotweine und Roséweine.</p>
+            <div className="season-note"><span>Sommerangebot</span><strong>Aperol Spritz &amp; Lillet Spritz</strong></div>
+          </div>
+          <aside className="reservation-card">
+            <p className="detail-label">Tischreservierung</p>
+            <h3>Ihr Samstag bei uns.</h3>
+            <p>Reservierungen nehmen wir ab fünf Personen entgegen. Besondere Wünsche können Sie gerne direkt bei Ihrer Anfrage angeben.</p>
+            <div className="reservation-actions">
+              <a href="#kontakt">Telefonisch anfragen <Arrow /></a>
+              <a href="mailto:info@mare-atlantico.de?subject=Reservierungsanfrage%20Samstag%20Exklusiv">Per E-Mail reservieren <Arrow /></a>
+            </div>
+            <div className="counter-hours">
+              <small>Öffnungszeiten Kaffee und Feinkosttheke</small>
+              <strong>[Uhrzeit ergänzen]</strong>
+            </div>
+          </aside>
         </div>
       </section>
 

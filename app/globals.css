@@ -90,6 +90,40 @@ h1 em, h2 em { font-weight: 400; }
 .product-info h3 { font-family: Georgia, serif; font-size: 28px; margin: 0; font-weight: 400; }
 .product-info p { opacity: .62; margin: 7px 0 0; font-size: 13px; }
 .product-info a { width: 44px; height: 44px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.45); border-radius: 50%; }
+.saturday { padding: 130px clamp(24px, 6vw, 90px); background: var(--cream); }
+.saturday-heading { display: grid; grid-template-columns: 1.05fr .75fr; gap: 10vw; align-items: end; margin-bottom: 65px; }
+.saturday-heading h2 { color: var(--blue); font-size: clamp(52px, 6vw, 88px); }
+.saturday-heading > div:last-child { color: #4f5d76; line-height: 1.7; }
+.saturday-heading > div:last-child p { margin: 0; }
+.saturday-heading .saturday-lead { color: var(--ink); font-family: Georgia, serif; font-size: 24px; line-height: 1.4; margin-bottom: 18px; }
+.saturday-gallery { display: grid; grid-template-columns: 1.35fr .75fr; grid-template-rows: repeat(2, 260px); gap: 18px; margin-bottom: 22px; }
+.saturday-photo { position: relative; margin: 0; overflow: hidden; border-radius: 22px; min-width: 0; }
+.saturday-photo-main { grid-row: 1 / 3; }
+.saturday-photo:after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(3,29,78,.68), transparent 55%); }
+.saturday-photo img { transition: transform .5s ease; }
+.saturday-photo:hover img { transform: scale(1.025); }
+.saturday-photo figcaption { position: absolute; z-index: 1; left: 24px; bottom: 22px; color: white; font-family: Georgia, serif; font-size: 23px; }
+.saturday-details { display: grid; grid-template-columns: 1fr .85fr 1fr; gap: 18px; }
+.saturday-menu, .saturday-drinks, .reservation-card { padding: 38px; border-radius: 22px; }
+.saturday-menu, .saturday-drinks { background: var(--blue-light); }
+.reservation-card { background: var(--blue); color: white; }
+.detail-label { margin: 0 0 18px; color: var(--blue); font-size: 10px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
+.reservation-card .detail-label { color: var(--yellow); }
+.saturday-details h3 { margin: 0 0 24px; font-family: Georgia, serif; font-size: 30px; font-weight: 400; line-height: 1.15; }
+.menu-list { display: grid; gap: 0; margin: 0; padding: 0; list-style: none; }
+.menu-list li { padding: 12px 0; border-bottom: 1px solid rgba(6,62,168,.18); }
+.saturday-drinks > p:not(.detail-label), .reservation-card > p:not(.detail-label) { line-height: 1.7; margin: 0 0 24px; }
+.reservation-card > p:not(.detail-label) { color: rgba(255,255,255,.74); }
+.season-note { margin-top: 36px; padding: 20px; background: var(--yellow); color: var(--ink); }
+.season-note span, .season-note strong { display: block; }
+.season-note span { margin-bottom: 7px; font-size: 9px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+.season-note strong { font-family: Georgia, serif; font-size: 20px; }
+.reservation-actions { display: grid; gap: 10px; }
+.reservation-actions a { display: flex; justify-content: space-between; gap: 20px; padding: 15px 0; border-bottom: 1px solid rgba(255,255,255,.28); font-weight: 700; }
+.counter-hours { margin-top: 32px; padding: 18px; border: 1px solid rgba(255,255,255,.28); }
+.counter-hours small, .counter-hours strong { display: block; }
+.counter-hours small { color: rgba(255,255,255,.65); font-size: 9px; line-height: 1.5; text-transform: uppercase; letter-spacing: .09em; }
+.counter-hours strong { margin-top: 12px; color: var(--yellow); font-family: Georgia, serif; font-size: 19px; }
 .gastro { display: grid; grid-template-columns: 1fr 1fr; min-height: 720px; margin-top: 22px; }
 .gastro-image { background: url("https://images.unsplash.com/photo-1584048603508-4b31894439a9?auto=format&fit=crop&w=1600&q=90") center/cover; }
 .gastro-copy { background: var(--blue-dark); color: white; padding: clamp(60px, 8vw, 120px); display: flex; flex-direction: column; justify-content: center; }
@@ -131,6 +165,11 @@ footer > small { grid-column: 1 / -1; padding-top: 36px; border-top: 1px solid r
   .category-card { grid-column: span 6; }
   .product-grid { grid-template-columns: repeat(2, 1fr); }
   .product-image { height: 300px; }
+  .saturday-heading { grid-template-columns: 1fr; gap: 35px; }
+  .saturday-gallery { grid-template-columns: 1fr 1fr; grid-template-rows: 420px 250px; }
+  .saturday-photo-main { grid-column: 1 / -1; grid-row: auto; }
+  .saturday-details { grid-template-columns: 1fr 1fr; }
+  .reservation-card { grid-column: 1 / -1; }
   .gastro { grid-template-columns: 1fr; }
   .gastro-image { min-height: 550px; }
   .visit { grid-template-columns: 1fr 1fr; }
@@ -159,6 +198,12 @@ footer > small { grid-column: 1 / -1; padding-top: 36px; border-top: 1px solid r
   .category-card { grid-column: auto; }
   .product-grid { grid-template-columns: 1fr; }
   .product-image { height: 290px; }
+  .saturday { padding: 90px 22px; }
+  .saturday-gallery { grid-template-columns: 1fr; grid-template-rows: repeat(3, 290px); }
+  .saturday-photo-main { grid-column: auto; }
+  .saturday-details { grid-template-columns: 1fr; }
+  .reservation-card { grid-column: auto; }
+  .saturday-menu, .saturday-drinks, .reservation-card { padding: 28px; }
   .gastro-image { min-height: 390px; }
   .gastro-copy { padding: 72px 24px; }
   .visit { grid-template-columns: 1fr; padding: 85px 22px; }
