@@ -192,10 +192,32 @@ export default function Home() {
       </section>
 
       <section className="section about" id="ueber-uns">
-        <p className="eyebrow blue">Mare Atlantico</p>
-        <div className="about-grid">
-          <h2>Geschmack kennt<br /><em>keine Grenzen.</em></h2>
-          <div><p className="lead">Wir bringen internationale Spezialitäten und persönliche Beratung an einen Ort.</p><p>Mare Atlantico steht für Qualität, Frische und ein Sortiment, das Profiküchen ebenso begeistert wie neugierige Hobbyköche. Unser Anspruch: gute Produkte verständlich beraten und verlässlich verfügbar machen.</p></div>
+        <p className="eyebrow blue">Über uns</p>
+
+        <div className="about-feature">
+          <blockquote className="chef-quote">
+            <span className="quote-mark" aria-hidden="true">“</span>
+            <p>[Persönliches Zitat des Geschäftsführers ergänzen]</p>
+            <cite>[Name des Geschäftsführers] · Mare Atlantico</cite>
+          </blockquote>
+          <div className="chef-video" role="img" aria-label="Platzhalter für das Video des Geschäftsführers">
+            <span className="play-symbol" aria-hidden="true">▶</span>
+            <div><small>Persönliche Einblicke</small><strong>Video des Geschäftsführers folgt</strong></div>
+          </div>
+        </div>
+
+        <div className="history">
+          <div className="history-copy">
+            <p className="detail-label">Unsere Geschichte</p>
+            <h2>Über 50 Jahre.<br />Drei Generationen.</h2>
+            <p className="history-lead">Was mit dem Gründer der Familie begann, wird heute mit derselben Leidenschaft und neuen Ideen weitergeführt.</p>
+            <p>Seit mehr als fünf Jahrzehnten steht Mare Atlantico für persönliche Beziehungen, besondere Lebensmittel und die Freude daran, Qualität mit anderen zu teilen. Aus dem Lebenswerk des Großvaters ist ein Familienunternehmen über drei Generationen gewachsen.</p>
+          </div>
+          <div className="founder-gallery" aria-label="Historische Fotos des Gründers">
+            <div className="founder-photo founder-photo-large"><span>Gründerfoto<br />ergänzen</span></div>
+            <div className="founder-photo"><span>Historisches Foto<br />ergänzen</span></div>
+            <div className="founder-photo"><span>Familienfoto<br />ergänzen</span></div>
+          </div>
         </div>
       </section>
 
