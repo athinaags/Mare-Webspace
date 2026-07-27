@@ -25,11 +25,11 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .wordmark { display: inline-flex; width: max-content; flex-direction: column; color: var(--blue); line-height: .8; transform: rotate(-2deg); }
 .wordmark-main { font-family: Georgia, serif; font-weight: 900; letter-spacing: -.06em; font-size: 32px; }
 .wordmark-sub { margin-top: 8px; font-size: 8px; font-weight: 800; letter-spacing: .22em; }
-nav { display: flex; gap: clamp(18px, 2vw, 32px); font-size: clamp(12px, .9vw, 14px); }
+nav { display: flex; gap: clamp(20px, 2vw, 34px); font-size: clamp(14px, 1vw, 16px); font-weight: 700; }
 nav a, footer a { position: relative; }
 nav a:after { content: ""; position: absolute; left: 0; right: 100%; bottom: -6px; height: 2px; background: var(--blue); transition: right .25s ease; }
 nav a:hover:after { right: 0; }
-.header-cta { justify-self: end; background: var(--yellow); padding: 16px 20px; font-weight: 700; display: flex; gap: 24px; transition: transform .2s; }
+.header-cta { justify-self: start; margin-left: clamp(26px, 3vw, 54px); background: var(--yellow); padding: 16px 20px; font-weight: 800; display: flex; gap: 24px; transition: transform .2s; }
 .header-cta:hover, .button:hover { transform: translateY(-2px); }
 
 .hero { min-height: 720px; display: grid; grid-template-columns: 39% 61%; background: var(--blue); color: white; overflow: hidden; }
@@ -224,6 +224,7 @@ h1 em, h2 em { font-weight: 400; }
 @media (max-width: 900px) {
   .site-header { height: 78px; grid-template-columns: 1fr auto; }
   nav { display: none; }
+  .header-cta { margin-left: 0; }
   .hero { grid-template-columns: 1fr; }
   .hero-copy { min-height: 650px; }
   .hero-image { min-height: 520px; }
