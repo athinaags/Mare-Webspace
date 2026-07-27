@@ -73,9 +73,8 @@ h1 em, h2 em { font-weight: 400; }
 .category-card img { transition: transform .5s ease; }
 .category-card:hover img { transform: scale(1.035); }
 .card-shade { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(3,29,78,.8), transparent 68%); }
-.card-1, .card-4, .card-5 { grid-column: span 7; }
-.card-2, .card-3, .card-6 { grid-column: span 5; }
-.card-7 { grid-column: span 12; }
+.card-1, .card-4, .card-5, .card-8 { grid-column: span 7; }
+.card-2, .card-3, .card-6, .card-7 { grid-column: span 5; }
 .card-copy { position: absolute; left: 25px; bottom: 24px; display: flex; flex-direction: column; gap: 8px; }
 .card-copy strong { font-family: Georgia, serif; font-size: 38px; font-weight: 400; }
 .card-arrow { position: absolute; right: 25px; bottom: 27px; font-size: 22px; }
