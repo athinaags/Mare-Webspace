@@ -13,6 +13,9 @@ const bestsellers = [
   { name: "Dorade Royal", meta: "Fisch · mediterraner Klassiker", tag: "Bestseller", image: "https://images.unsplash.com/photo-1544943910-4c1dc44aab44?auto=format&fit=crop&w=1000&q=85" },
   { name: "Premium Rind", meta: "Fleisch · ausgewählte Zuschnitte", tag: "Gastro-Favorit", image: "https://images.unsplash.com/photo-1603048297172-c92544798d5a?auto=format&fit=crop&w=1000&q=85" },
   { name: "Asia Essentials", meta: "Asia · für authentische Küche", tag: "Beliebt", image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85" },
+  { name: "Kaviar Selection", meta: "Exklusives · feinste Auswahl", tag: "Premium", image: "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=1000&q=85" },
+  { name: "Königskrabbe", meta: "Fisch · besondere Qualität", tag: "Exklusiv", image: "https://images.unsplash.com/photo-1574137117079-54a7b19b39b7?auto=format&fit=crop&w=1000&q=85" },
+  { name: "Primitivo Riserva", meta: "Wein · vollmundig und elegant", tag: "Empfehlung", image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=1000&q=85" },
 ];
 
 function Arrow() {

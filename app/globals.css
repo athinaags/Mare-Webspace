@@ -82,7 +82,7 @@ h1 em, h2 em { font-weight: 400; }
 .bestsellers .section-heading h2 { color: white; }
 .bestsellers .section-heading > p { color: rgba(255,255,255,.68); }
 .product-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-.product-image { height: 380px; border-radius: 20px; overflow: hidden; position: relative; background: var(--cream); }
+.product-image { height: 300px; border-radius: 20px; overflow: hidden; position: relative; background: var(--cream); }
 .product-image img { transition: transform .5s; }
 .product-card:hover img { transform: scale(1.04); }
 .product-image span { position: absolute; top: 16px; left: 16px; background: var(--yellow); color: var(--ink); padding: 9px 12px; font-size: 10px; text-transform: uppercase; font-weight: 800; letter-spacing: .1em; }
@@ -129,8 +129,8 @@ footer > small { grid-column: 1 / -1; padding-top: 36px; border-top: 1px solid r
   .section-heading, .about-grid { grid-template-columns: 1fr; gap: 35px; }
   .category-grid { grid-auto-rows: 300px; }
   .category-card { grid-column: span 6; }
-  .product-grid { grid-template-columns: 1fr; }
-  .product-image { height: 480px; }
+  .product-grid { grid-template-columns: repeat(2, 1fr); }
+  .product-image { height: 300px; }
   .gastro { grid-template-columns: 1fr; }
   .gastro-image { min-height: 550px; }
   .visit { grid-template-columns: 1fr 1fr; }
@@ -157,7 +157,8 @@ footer > small { grid-column: 1 / -1; padding-top: 36px; border-top: 1px solid r
   .section-heading { margin-bottom: 45px; }
   .category-grid { display: grid; grid-template-columns: 1fr; }
   .category-card { grid-column: auto; }
-  .product-image { height: 370px; }
+  .product-grid { grid-template-columns: 1fr; }
+  .product-image { height: 290px; }
   .gastro-image { min-height: 390px; }
   .gastro-copy { padding: 72px 24px; }
   .visit { grid-template-columns: 1fr; padding: 85px 22px; }
