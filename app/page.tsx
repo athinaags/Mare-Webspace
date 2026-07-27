@@ -95,7 +95,7 @@ export default function Home() {
       <section className="section bestsellers">
         <div className="section-heading compact">
           <div><p className="eyebrow yellow">Ausgewählt für Sie</p><h2>Unsere Bestseller.</h2></div>
-          <p>Besonders gefragte Produkte aus unserem Sortiment. Bilder und Produktdetails dienen in dieser ersten Version als Beispiel.</p>
+          <p>Besonders gefragte Produkte aus unserem Sortiment.</p>
         </div>
         <div className="product-grid">
           {bestsellers.map((product) => (
