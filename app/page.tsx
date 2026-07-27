@@ -44,7 +44,7 @@ export default function Home() {
         </a>
         <nav aria-label="Hauptnavigation">
           <a href="#sortiment">Sortiment</a>
-          <a href="#samstag-exklusiv">Samstag Exklusiv</a>
+          <a href="#samstag-exklusiv">Täglich &amp; Samstag</a>
           <a href="#gastro">Für Gastronomen</a>
           <a href="#ueber-uns">Über uns</a>
         </nav>
@@ -113,12 +113,12 @@ export default function Home() {
       <section className="saturday" id="samstag-exklusiv">
         <div className="saturday-heading">
           <div>
-            <p className="eyebrow blue">Nur am Samstag</p>
-            <h2>Samstag Exklusiv.</h2>
+            <p className="eyebrow blue">Genuss bei Mare Atlantico</p>
+            <h2>Täglich genießen.<br />Samstags exklusiv.</h2>
           </div>
           <div>
-            <p className="saturday-lead">Nehmen Sie Platz, entdecken Sie besondere Spezialitäten und genießen Sie Ihren Einkauf ganz in Ruhe.</p>
-            <p>Samstags wird Mare Atlantico zum kulinarischen Treffpunkt. Reservieren Sie einen Tisch, äußern Sie Ihre Wünsche vorab und verbringen Sie eine genussvolle Zeit bei uns.</p>
+            <p className="saturday-lead">Ciabattas, Platten, Kaffee und ausgewählte Getränke genießen Sie bei uns an jedem Öffnungstag.</p>
+            <p>Samstags wird Mare Atlantico zum besonderen kulinarischen Treffpunkt. In entspannter Atmosphäre servieren wir zusätzlich Austern, Tartare, Hummer und Pulpo.</p>
           </div>
         </div>
 
@@ -139,27 +139,30 @@ export default function Home() {
 
         <div className="saturday-details">
           <div className="saturday-menu">
-            <p className="detail-label">Unsere Auswahl</p>
-            <h3>Herzhaft, frisch und besonders.</h3>
+            <p className="detail-label">Täglich für Sie</p>
+            <h3>Genuss an jedem Öffnungstag.</h3>
             <ul className="menu-list">
               <li>Ciabattas in verschiedenen Variationen</li>
               <li>Käse und Schinkenplatten</li>
+              <li>Kaffee und Softdrinks</li>
+              <li>Champagner, Prosecco und ausgewählte Weine</li>
+            </ul>
+            <div className="season-note"><span>Im Sommer täglich</span><strong>Aperol Spritz &amp; Lillet Spritz</strong></div>
+          </div>
+          <div className="saturday-drinks">
+            <p className="detail-label">Samstags zusätzlich</p>
+            <h3>Besondere Meeresküche.</h3>
+            <ul className="menu-list">
               <li>Frische Austern</li>
               <li>Thunfisch und Lachstatar</li>
               <li>Pulposalat</li>
               <li>Halber Hummer</li>
             </ul>
           </div>
-          <div className="saturday-drinks">
-            <p className="detail-label">Dazu im Glas</p>
-            <h3>Von Kaffee bis Champagner.</h3>
-            <p>Kaffee, Softdrinks, Champagner, Prosecco sowie ausgewählte Weißweine, Rotweine und Roséweine.</p>
-            <div className="season-note"><span>Sommerangebot</span><strong>Aperol Spritz &amp; Lillet Spritz</strong></div>
-          </div>
           <aside className="reservation-card">
             <p className="detail-label">Tischreservierung</p>
-            <h3>Ihr Samstag bei uns.</h3>
-            <p>Reservierungen nehmen wir ab fünf Personen entgegen. Besondere Wünsche können Sie gerne direkt bei Ihrer Anfrage angeben.</p>
+            <h3>Am liebsten samstags.</h3>
+            <p>Reservierungen nehmen wir ab fünf Personen entgegen. Für besondere Anlässe können Sie nach Absprache auch unter der Woche reservieren. Ihre individuellen Wünsche können Sie direkt bei der Anfrage angeben.</p>
             <div className="reservation-actions">
               <a href="#kontakt">Telefonisch anfragen <Arrow /></a>
               <a href="mailto:info@mare-atlantico.de?subject=Reservierungsanfrage%20Samstag%20Exklusiv">Per E-Mail reservieren <Arrow /></a>
