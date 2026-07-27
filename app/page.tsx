@@ -180,11 +180,12 @@ export default function Home() {
         <div className="gastro-copy">
           <p className="eyebrow yellow">Für Profis, die Qualität planen</p>
           <h2>Ein starker Partner für Ihre Gastronomie.</h2>
-          <p>Ob Restaurant, Hotel, Bar oder Catering: Wir unterstützen Sie mit spezialisiertem Sortiment, größeren Gebinden und direkter Kommunikation.</p>
+          <p>Ob Restaurant, Hotel, Bar oder Café: Wir unterstützen Sie mit spezialisiertem Sortiment, flexiblen Mengen und direkter Kommunikation. Für den Einkauf als Gastronomiekunde legen Sie vorab ein Geschäftskundenkonto bei uns an.</p>
           <ul>
             <li><span>01</span> Persönliche Sortimentsberatung</li>
-            <li><span>02</span> Flexible Mengen &amp; Gebinde</li>
+            <li><span>02</span> Flexible Mengen &amp; angepasste Preise</li>
             <li><span>03</span> Lieferungen in Köln &amp; Umgebung</li>
+            <li><span>04</span> Geschäftskundenkonto für Gastronomiekunden</li>
           </ul>
           <a className="button button-yellow" href="mailto:info@mare-atlantico.de">Gastro-Anfrage starten <Arrow /></a>
         </div>
